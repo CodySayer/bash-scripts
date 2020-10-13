@@ -6,6 +6,8 @@ GREEN='\e[32m'
 NC='\033[0m'
 set -m
 
+# TODO: #1 break out each update into a function (see https://github.com/CodySayer/net-provisioning/blob/ansible/Kickstart%20Install/service_setup.sh)
+
 echo
 echo -e [${BLUE}STARTING UPDATES{NC}]
     echo
